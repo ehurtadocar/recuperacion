@@ -13,8 +13,8 @@ Este documento describe el proceso necesario para instalar y preparar ownCloud e
 ```bash
 sudo apt install software-properties-common -y
 ```
+![4](https://github.com/user-attachments/assets/32d9a52d-a262-4726-b7f9-b5ae58f6badf)
 
-![Instalación software-properties](./img/4.png)
 
 ### 1.2 Añadir el repositorio oficial de PHP 7.4
 
@@ -22,7 +22,8 @@ sudo apt install software-properties-common -y
 LC_ALL=C.UTF-8 sudo add-apt-repository ppa:ondrej/php -y
 ```
 
-![Añadir repositorio PHP](./img/5.png)
+![5](https://github.com/user-attachments/assets/840a4a0d-e636-4bbd-acc9-b6a5bb88c65f)
+
 
 ### 1.3 Actualizar la lista de paquetes
 
@@ -30,7 +31,8 @@ LC_ALL=C.UTF-8 sudo add-apt-repository ppa:ondrej/php -y
 sudo apt update
 ```
 
-![Actualizar paquetes](./img/6.png)
+![6](https://github.com/user-attachments/assets/77099384-b927-4a33-8ec1-b9e14c975885)
+
 
 ### 1.4 Instalar PHP 7.4
 
@@ -38,7 +40,8 @@ sudo apt update
 sudo apt install php7.4 -y
 ```
 
-![Instalar PHP 7.4](./img/7.png)
+![7](https://github.com/user-attachments/assets/456cbdc5-2d04-4466-82ae-1fe0839b7932)
+
 
 ### 1.5 Instalar el módulo de PHP para Apache
 
@@ -46,7 +49,8 @@ sudo apt install php7.4 -y
 sudo apt install -y php libapache2-mod-php7.4
 ```
 
-![PHP + módulo Apache](./img/8.png)
+![8](https://github.com/user-attachments/assets/07fff51e-5df7-4b94-ba51-0626f39a4429)
+
 
 ### 1.6 Instalar extensiones necesarias de PHP
 
@@ -54,7 +58,8 @@ sudo apt install -y php libapache2-mod-php7.4
 sudo apt install -y php7.4-fpm php7.4-common php7.4-mbstring php7.4-xmlrpc php7.4-soap php7.4-gd php7.4-xml php7.4-intl php7.4-mysql php7.4-cli php7.4-ldap php7.4-zip php7.4-curl
 ```
 
-![Extensiones de PHP](./img/10.png)
+![10](https://github.com/user-attachments/assets/ee9a1f5a-9760-4284-bbc2-debae0ce4b85)
+
 
 ### 1.7 Seleccionar la versión por defecto de PHP
 
@@ -62,7 +67,8 @@ sudo apt install -y php7.4-fpm php7.4-common php7.4-mbstring php7.4-xmlrpc php7.
 sudo update-alternatives --config php
 ```
 
-![Seleccionar PHP por defecto](./img/1.png)
+![1](https://github.com/user-attachments/assets/6cab0580-06b9-470b-92c5-55e790770adb)
+
 
 ### 1.8 Activar módulos necesarios en Apache
 
@@ -71,7 +77,8 @@ sudo a2enmod proxy_fcgi setenvif
 sudo a2enconf php7.4-fpm
 ```
 
-![Activar módulos Apache](./img/9.png)
+![9](https://github.com/user-attachments/assets/ff8f8f97-aaa5-46ac-abb6-b673d6abb6e8)
+
 
 ### 1.9 Reiniciar Apache2
 
@@ -79,7 +86,8 @@ sudo a2enconf php7.4-fpm
 sudo service apache2 restart
 ```
 
-![Reiniciar Apache](./img/13.png)
+![13](https://github.com/user-attachments/assets/9e24547b-a724-4ef4-8f4f-79e4acfc202f)
+
 
 ---
 
@@ -92,7 +100,8 @@ sudo apt update
 sudo apt upgrade
 ```
 
-![Actualizar sistema](./img/12.png)
+![12](https://github.com/user-attachments/assets/a65e155d-ffc0-4c8f-bbd6-6e1b6d9a5af4)
+
 
 ### 2.2 Instalar Apache2
 
@@ -100,7 +109,8 @@ sudo apt upgrade
 sudo apt install -y apache2
 ```
 
-![Instalar Apache](./img/16.png)
+![16](https://github.com/user-attachments/assets/2e6aefc7-b44b-4c5c-abe6-4e65e1990173)
+
 
 ### 2.3 Instalar MySQL Server
 
@@ -108,7 +118,8 @@ sudo apt install -y apache2
 sudo apt install -y mysql-server
 ```
 
-![Instalar MySQL](./img/11.png)
+![11](https://github.com/user-attachments/assets/4bff5a6f-f1c1-4227-b4d6-d3f42e3fcda8)
+
 
 ### 2.4 Acceder a la consola de MySQL
 
@@ -125,9 +136,9 @@ GRANT ALL ON bbdd.* TO 'usuario'@'localhost';
 exit;
 ```
 
-![Crear base de datos](./img/21.png)  
-![Crear usuario](./img/22.png)  
-![Dar permisos](./img/23.png)
+![21](https://github.com/user-attachments/assets/04aa8c8b-ef82-4bea-8fe0-478dbf334464)
+![22](https://github.com/user-attachments/assets/ef32ae53-dc52-4a2f-b791-e2eec33ccfbe)
+![23](https://github.com/user-attachments/assets/d7d0fecb-7b2a-4147-a992-3e60437e1aca)
 
 ### 2.6 Verificar conexión con el nuevo usuario
 
@@ -135,7 +146,8 @@ exit;
 mysql -u usuario -p
 ```
 
-![Verificar conexión](./img/26.png)
+![26](https://github.com/user-attachments/assets/f7297dd3-7330-4ce1-a2b8-3117d2db3ea1)
+
 
 ---
 
@@ -147,7 +159,8 @@ Descarga el archivo `.zip` desde la web oficial y guárdalo en tu carpeta de des
 
 [https://download.owncloud.com/server/stable/owncloud-complete-20240724.zip](https://download.owncloud.com/server/stable/owncloud-complete-20240724.zip)
 
-![Descargar ownCloud](./img/3.png)
+![3](https://github.com/user-attachments/assets/7a2b0835-cac1-4ef8-9fc2-b1b58b9cfe73)
+
 
 ### 3.2 Mover y descomprimir el archivo
 
@@ -160,9 +173,10 @@ sudo rm -rf owncloud/
 sudo rm -rf index.html
 ```
 
-![Copiar y descomprimir](./img/28.png)  
-![Mover contenido](./img/29.png)  
-![Eliminar index.html](./img/31.png)
+![28](https://github.com/user-attachments/assets/c7635956-fa1d-4997-bcfb-6bff31b0b2ab)
+![29](https://github.com/user-attachments/assets/7ca6f8de-5b47-4d33-b8fa-208a3f1c9a10)
+![31](https://github.com/user-attachments/assets/3e1256cb-de2b-42a4-9293-dd51833aac60)
+
 
 ### 3.3 Aplicar permisos a los archivos
 
@@ -172,7 +186,8 @@ sudo chmod -R 775 .
 sudo chown -R usuario:www-data .
 ```
 
-![Aplicar permisos](./img/32.png)
+![32](https://github.com/user-attachments/assets/273d6458-caaf-48e4-80d6-f32eae4df614)
+
 
 ---
 
@@ -184,7 +199,7 @@ Abre el navegador y accede a la siguiente dirección:
 http://localhost
 ```
 
-![Formulario instalación](./img/25.png)
+![25](https://github.com/user-attachments/assets/f48c92b3-2cac-4058-8c57-f295b2779a91)
 
 Rellena el formulario con los siguientes datos:
 
@@ -194,9 +209,3 @@ Rellena el formulario con los siguientes datos:
 - **Contraseña de la base de datos**: `password`
 - **Nombre de la base de datos**: `bbdd`
 - **Servidor**: `localhost`
-
----
-
-## ✅ Instalación finalizada
-
-Si todo ha salido correctamente, podrás acceder a ownCloud desde tu navegador. A partir de aquí puedes comenzar a gestionar archivos o continuar con la configuración de usuarios y permisos.
