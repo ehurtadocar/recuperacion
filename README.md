@@ -13,7 +13,7 @@ Este documento describe el proceso necesario para instalar y preparar ownCloud e
 ```bash
 sudo apt install software-properties-common -y
 ```
-![1](https://github.com/user-attachments/assets/472908ae-9b08-43b1-9624-a0134ab98874)
+![2](https://github.com/user-attachments/assets/6ce9091d-0a62-44bd-ab02-a5de30f5d3ae)
 
 
 ### 1.2 Añadir el repositorio oficial de PHP 7.4
@@ -21,7 +21,7 @@ sudo apt install software-properties-common -y
 ```bash
 LC_ALL=C.UTF-8 sudo add-apt-repository ppa:ondrej/php -y
 ```
-![2](https://github.com/user-attachments/assets/6ce9091d-0a62-44bd-ab02-a5de30f5d3ae)
+![3](https://github.com/user-attachments/assets/c5ae0eff-d2b4-4785-99d4-d527ed066135)
 
 
 ### 1.3 Actualizar la lista de paquetes
@@ -29,7 +29,7 @@ LC_ALL=C.UTF-8 sudo add-apt-repository ppa:ondrej/php -y
 ```bash
 sudo apt update
 ```
-![3](https://github.com/user-attachments/assets/c5ae0eff-d2b4-4785-99d4-d527ed066135)
+![4](https://github.com/user-attachments/assets/c27de53e-20ee-4edd-9e3f-b201f0cf169a)
 
 
 ### 1.4 Instalar PHP 7.4
@@ -37,7 +37,7 @@ sudo apt update
 ```bash
 sudo apt install php7.4 -y
 ```
-![4](https://github.com/user-attachments/assets/c27de53e-20ee-4edd-9e3f-b201f0cf169a)
+![5](https://github.com/user-attachments/assets/6d738bd7-126d-4199-9490-a1fbdaeb816c)
 
 
 ### 1.5 Instalar el módulo de PHP para Apache
@@ -45,7 +45,7 @@ sudo apt install php7.4 -y
 ```bash
 sudo apt install -y php libapache2-mod-php7.4
 ```
-![5](https://github.com/user-attachments/assets/6d738bd7-126d-4199-9490-a1fbdaeb816c)
+![6](https://github.com/user-attachments/assets/c6612ce2-d1e6-424f-9b14-9bb614dcd8b5)
 
 
 ### 1.6 Instalar extensiones necesarias de PHP
@@ -53,7 +53,7 @@ sudo apt install -y php libapache2-mod-php7.4
 ```bash
 sudo apt install -y php7.4-fpm php7.4-common php7.4-mbstring php7.4-xmlrpc php7.4-soap php7.4-gd php7.4-xml php7.4-intl php7.4-mysql php7.4-cli php7.4-ldap php7.4-zip php7.4-curl
 ```
-![6](https://github.com/user-attachments/assets/c6612ce2-d1e6-424f-9b14-9bb614dcd8b5)
+![7](https://github.com/user-attachments/assets/50819bd3-70d1-4d11-bbb4-fd0863cce18b)
 
 
 ### 1.7 Seleccionar la versión por defecto de PHP
@@ -61,7 +61,7 @@ sudo apt install -y php7.4-fpm php7.4-common php7.4-mbstring php7.4-xmlrpc php7.
 ```bash
 sudo update-alternatives --config php
 ```
-![7](https://github.com/user-attachments/assets/50819bd3-70d1-4d11-bbb4-fd0863cce18b)
+![8](https://github.com/user-attachments/assets/d5f3d161-9691-457a-9c13-29d18cfb9b86)
 
 
 ### 1.8 Activar módulos necesarios en Apache
@@ -70,7 +70,7 @@ sudo update-alternatives --config php
 sudo a2enmod proxy_fcgi setenvif
 sudo a2enconf php7.4-fpm
 ```
-![8](https://github.com/user-attachments/assets/d5f3d161-9691-457a-9c13-29d18cfb9b86)
+![9](https://github.com/user-attachments/assets/161a3ec8-122c-487c-bc70-5198c61d042e)
 
 
 ### 1.9 Reiniciar Apache2
@@ -78,7 +78,7 @@ sudo a2enconf php7.4-fpm
 ```bash
 sudo service apache2 restart
 ```
-![9](https://github.com/user-attachments/assets/161a3ec8-122c-487c-bc70-5198c61d042e)
+![10](https://github.com/user-attachments/assets/a48d99c6-d8d8-4524-bd52-328a8d2e6704)
 
 
 ---
@@ -91,7 +91,7 @@ sudo service apache2 restart
 sudo apt update
 sudo apt upgrade
 ```
-![10](https://github.com/user-attachments/assets/a48d99c6-d8d8-4524-bd52-328a8d2e6704)
+![11](https://github.com/user-attachments/assets/a7f141f9-ea09-474d-b4eb-b518599b945d)
 
 
 ### 2.2 Instalar Apache2
@@ -99,8 +99,8 @@ sudo apt upgrade
 ```bash
 sudo apt install -y apache2
 ```
-![11](https://github.com/user-attachments/assets/a7f141f9-ea09-474d-b4eb-b518599b945d)
 
+![12](https://github.com/user-attachments/assets/563d8238-7576-4871-a124-7e3df67a0310)
 
 ### 2.3 Instalar MySQL Server
 
@@ -108,14 +108,14 @@ sudo apt install -y apache2
 sudo apt install -y mysql-server
 ```
 
-![12](https://github.com/user-attachments/assets/563d8238-7576-4871-a124-7e3df67a0310)
+![13](https://github.com/user-attachments/assets/e5582eb4-7942-4c97-9612-e14a755af74e)
 
 ### 2.4 Acceder a la consola de MySQL
 
 ```bash
 sudo mysql
 ```
-![13](https://github.com/user-attachments/assets/e5582eb4-7942-4c97-9612-e14a755af74e)
+![14](https://github.com/user-attachments/assets/0d3de1c3-fe05-47c1-a690-9f8edb28cdba)
 
 
 ### 2.5 Crear base de datos y usuario
@@ -126,7 +126,7 @@ CREATE USER 'usuario'@'localhost' IDENTIFIED WITH mysql_native_password BY 'pass
 GRANT ALL ON bbdd.* TO 'usuario'@'localhost';
 exit;
 ```
-![14](https://github.com/user-attachments/assets/0d3de1c3-fe05-47c1-a690-9f8edb28cdba)
+![15](https://github.com/user-attachments/assets/50222e22-2012-4bb1-a89c-f9a3226e5327)
 
 
 ### 2.6 Verificar conexión con el nuevo usuario
@@ -134,7 +134,7 @@ exit;
 ```bash
 mysql -u usuario -p
 ```
-![15](https://github.com/user-attachments/assets/50222e22-2012-4bb1-a89c-f9a3226e5327)
+![16](https://github.com/user-attachments/assets/c59f1a39-8703-44d4-a2bb-392b3aebdb6a)
 
 
 ---
@@ -147,7 +147,8 @@ Descarga el archivo `.zip` desde la web oficial:
 
 [https://download.owncloud.com/server/stable/owncloud-complete-20240724.zip](https://download.owncloud.com/server/stable/owncloud-complete-20240724.zip)
 
-![16](https://github.com/user-attachments/assets/c59f1a39-8703-44d4-a2bb-392b3aebdb6a)
+![1](https://github.com/user-attachments/assets/62fe8519-8971-4521-a2ed-92c42d428059)
+
 
 
 ### 3.2 Mover y descomprimir el archivo
