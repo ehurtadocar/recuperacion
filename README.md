@@ -197,3 +197,12 @@ Rellena el formulario con los siguientes datos:
 - **Servidor**: `localhost`
 
 ![20](https://github.com/user-attachments/assets/1cd0b3e2-bf30-4303-8977-baa4c550bc7b)
+---
+
+## 1. Configuracion de owncloud
+
+Ahora nuestro objetivo va a ser crear una carpeta
+
+Para esto nos iremos a "All files" y haremos click en en simbolo "+".
+![image](https://github.com/user-attachments/assets/0f23ba8c-1d87-495c-9f87-81fb477a00cd)
+
