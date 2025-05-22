@@ -235,3 +235,10 @@ y repetimos el proceso con los usuarios deseados
 
 Lo primero es volver al menú principal. Y de nuevo acceder a la esquina superior derecha y accedemos a "settings"
 ![image](https://github.com/user-attachments/assets/175bf11c-a5fc-40b2-9ab9-72a73110a996)
+
+Dentro de los ajustes, en el menú de la izquierda vamos a "sharing".
+![image](https://github.com/user-attachments/assets/4dbe832e-3875-48a0-bc10-9f33b954d4ad)
+
+Y una vez aqui, podemos administrar los ajustes deseados.
+![image](https://github.com/user-attachments/assets/9529ff67-f5f5-4bb0-ac1c-2e5647ea5fad)
+
