@@ -206,3 +206,11 @@ Ahora nuestro objetivo va a ser crear una carpeta
 Para esto nos iremos a "All files" y haremos click en en simbolo "+".
 ![image](https://github.com/user-attachments/assets/0f23ba8c-1d87-495c-9f87-81fb477a00cd)
 
+Eligiremos "Folder".
+![image](https://github.com/user-attachments/assets/df846d87-ee04-465b-bf3d-dfdcb2064f8a)
+
+Ponemos nombre a nuestra carpeta y le damos a "create"
+![image](https://github.com/user-attachments/assets/82d3220f-5c21-4790-b965-89d39242c4f6)
+
+
+
