@@ -201,7 +201,7 @@ Rellena el formulario con los siguientes datos:
 
 ## 1. Configuracion de owncloud
 
-Ahora nuestro objetivo va a ser crear una carpeta
+### Ahora nuestro objetivo va a ser crear una carpeta 
 
 Para esto nos iremos a "All files" y haremos click en en simbolo "+".
 ![image](https://github.com/user-attachments/assets/0f23ba8c-1d87-495c-9f87-81fb477a00cd)
@@ -213,4 +213,25 @@ Ponemos nombre a nuestra carpeta y le damos a "create"
 ![image](https://github.com/user-attachments/assets/82d3220f-5c21-4790-b965-89d39242c4f6)
 
 
+### Nuestro siguiente objetivo sera crear usuarios con diferentes roles y nombres.
 
+Primero de todo nos dirgiremos a la esquina superior derecha y eligiremos "Users"
+![image](https://github.com/user-attachments/assets/e9af2bae-cb52-4f64-8ce7-05c271f0fb04)
+
+En la esquina superior izquierda tenemos para crear un nuevo grupo, eso nos interesa ya que queremos tener a nuestros usuarios supervisados. A este grupo le ponemos el nombre deseado para el rol del usuario, y le damos al "+" para aplicar.
+![image](https://github.com/user-attachments/assets/2700515a-5674-4c10-afae-2da10a30686a)
+
+En el apartado de la parte izquierda eligiremos nuestro nuevo grupo y una vez seleccionado, en la parte superior veremos campos para rellenar; Nombre, Correo, el grupo al que pertenece y el boton de crear. Rellenamos y creamos.
+![image](https://github.com/user-attachments/assets/b0b1239f-5323-43a3-bb3f-ad152c11e287)
+Una vez creado podemos modificar el nombre, añadir contraseñas...
+
+Cabe recalcar que el rol que quieras atribuir es el nombre del grupo al que pertenece, por lo que un usuario que queramos que sea admin lo añadimos al grupo admin.
+
+y repetimos el proceso con los usuarios deseados
+![image](https://github.com/user-attachments/assets/da63a42c-6850-4294-9e8a-5f5eceb454ee)
+
+
+### Nuestro ultimo paso es gestionar la compartición.
+
+Lo primero es volver al menú principal. Y de nuevo acceder a la esquina superior derecha y accedemos a "settings"
+![image](https://github.com/user-attachments/assets/175bf11c-a5fc-40b2-9ab9-72a73110a996)
